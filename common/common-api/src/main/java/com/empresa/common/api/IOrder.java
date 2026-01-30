@@ -1,4 +1,6 @@
 package com.empresa.common.api;
 
-public class IOrder {
+public interface IOrder {
+    String getId();
+    void printDetails();
 }
